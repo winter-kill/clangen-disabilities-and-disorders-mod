@@ -45,7 +45,7 @@
 /* custom theming */
 [data-md-color-scheme="clangen_light"] {
     /* color of the header */
-    --md-primary-fg-color: #655934;
+    --md-primary-fg-color: #00C5BF;
     /* color of github button */
     --md-primary-fg-color--dark: #393224;
     /* color of the header text */
@@ -54,7 +54,7 @@
     --md-primary-bg-color--light: #B1A588;
 
     /* footer color */
-    --md-footer-bg-color: #655934;
+    --md-footer-bg-color: #00C5BF;
     --md-footer-fg-color: #EFE5CE;
 
     /* link color */
@@ -96,7 +96,7 @@
 }
 [data-md-color-scheme="clangen_dark"] {
     /* color of the header */
-    --md-primary-fg-color: #655934;
+    --md-primary-fg-color: #00C5BF;
     /* color of github button */
     --md-primary-fg-color--dark: #393224;
     /* color of the header text */

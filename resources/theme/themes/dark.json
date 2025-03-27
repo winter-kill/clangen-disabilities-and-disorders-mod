@@ -1,11 +1,11 @@
 {
     "#dark": {
         "colours": {
-            "normal_bg": "#655934",
-            "hovered_bg": "#1E1809",
-            "disabled_bg": "#5C5850",
-            "selected_bg": "#655934",
-            "active_bg": "#655934",
+            "normal_bg": "#00C5BF",
+            "hovered_bg": "#006965",
+            "disabled_bg": "#002D2C",
+            "selected_bg": "#00C5BF",
+            "active_bg": "#00C5BF",
             "normal_text": "#EFE5CE",
             "hovered_text": "#EFE5CE",
             "selected_text": "#EFE5CE",
