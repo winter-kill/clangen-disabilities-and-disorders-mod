@@ -1,6 +1,6 @@
 {
     "defaults": {
-        "font": {"name": "notosans", "size": "14"},
+        "font": {"name": "clangen", "size": "14"},
         "colours": {
             "normal_bg": "#00C5BF",
             "hovered_bg": "#006965",
@@ -8,11 +8,11 @@
             "selected_bg": "#00C5BF",
             "active_bg": "#00C5BF",
             "dark_bg": "#002625",
-            "normal_text": "#000000",
-            "active_text": "#000000",
-            "hovered_text": "#000000",
-            "selected_text": "#000000",
-            "disabled_text": "#000000",
+            "normal_text": "#FFFFFF",
+            "active_text": "#FFFFFF",
+            "hovered_text": "#FFFFFF",
+            "selected_text": "#FFFFFF",
+            "disabled_text": "#FFFFFF",
             "link_text": "#B68727",
             "link_hover": "#EFE5CE",
             "link_selected": "#3A91A6",
@@ -50,7 +50,7 @@
         "misc": {"shadow_width": "0", "tool_tip_delay": "0", "text_horiz_alignment": "center"}
     },
     "#search_entry_box": {
-        "font": {"name": "notosans", "size": "13"},
+        "font": {"name": "clangen", "size": "13"},
         "colours": {
             "dark_bg": "#00000000",
             "selected_bg": "#796045",
@@ -66,7 +66,7 @@
     },
     "tool_tip": {"misc": {"rect_width": "200"}},
     "tool_tip.text_box": {
-        "font": {"name": "notosans", "size": "13"},
+        "font": {"name": "clangen", "size": "13"},
         "misc": {
             "shape": "rounded_rectangle",
             "shape_corner_radius": "8",
@@ -107,7 +107,7 @@
     "@mns_image.#moon.tool_tip": {"misc": {"rect_width": "100"}},
     "@mns_image.tool_tip": {"misc": {"rect_width": "100"}},
     "#dev_watermark": {
-        "font": {"name": "notosans", "size": "19", "bold": "1"},
+        "font": {"name": "clangen", "size": "19", "bold": "1"},
         "colours": {
             "dark_bg": "#00000000",
             "normal_text": "#EFE5CE88",
@@ -253,7 +253,7 @@
     "#kill_cat_window": {"prototype": "#window_base_theme"},
     "#confirm_display_changes_window": {"prototype": "#window_base_theme"},
     "text_entry_line": {
-        "font": {"size": "15", "name": "notosans"},
+        "font": {"size": "15", "name": "clangen"},
         "colours": {
             "dark_bg": "#000000",
             "selected_bg": "#6E6759",
@@ -269,7 +269,7 @@
         }
     },
     "text_box": {
-        "font": {"size": "13", "name": "notosans"},
+        "font": {"size": "13", "name": "clangen"},
         "colours": {
             "dark_bg": "#FFFF0000",
             "selected_bg": "#776045",
@@ -280,12 +280,12 @@
         },
         "misc": {"border_width": "0", "shadow_width": "0"}
     },
-    "#text_box_14": {"prototype": "text_box", "font": {"size": "7", "name": "notosans"}},
+    "#text_box_14": {"prototype": "text_box", "font": {"size": "7", "name": "clangen"}},
     "#text_box_14_horizleft": {
         "prototype": "#text_box_14",
         "misc": {"border_width": "0", "shadow_width": "0", "text_horiz_alignment": "left"}
     },
-    "#text_box_22": {"prototype": "text_box", "font": {"size": "11", "name": "notosans"}},
+    "#text_box_22": {"prototype": "text_box", "font": {"size": "11", "name": "clangen"}},
     "#text_box_22_horizcenter": {
         "prototype": "#text_box_22",
         "misc": {"text_horiz_alignment": "center"}
@@ -323,7 +323,7 @@
         "prototype": "#text_box_22",
         "misc": {"text_horiz_alignment": "left", "text_vert_alignment": "bottom"}
     },
-    "#text_box_26": {"prototype": "text_box", "font": {"size": "13", "name": "notosans"}},
+    "#text_box_26": {"prototype": "text_box", "font": {"size": "13", "name": "clangen"}},
     "#text_box_26_horizcenter": {
         "prototype": "#text_box_26",
         "misc": {"text_horiz_alignment": "center"}
@@ -345,7 +345,7 @@
         "prototype": "#text_box_26",
         "misc": {"text_horiz_alignment": "left", "padding": "5,7"}
     },
-    "#text_box_30": {"prototype": "text_box", "font": {"size": "15", "name": "notosans"}},
+    "#text_box_30": {"prototype": "text_box", "font": {"size": "15", "name": "clangen"}},
     "text_box.#current_version": {
         "prototype": "text_box",
         "colours": {"normal_text": "#222222"}
@@ -416,7 +416,7 @@
         "prototype": "#text_box_30_horizleft",
         "misc": {"padding": "20,20"}
     },
-    "#text_box_34": {"prototype": "text_box", "font": {"size": "17", "name": "notosans"}},
+    "#text_box_34": {"prototype": "text_box", "font": {"size": "17", "name": "clangen"}},
     "#text_box_34_horizcenter": {
         "prototype": "#text_box_34",
         "misc": {"text_horiz_alignment": "center"}
@@ -429,7 +429,7 @@
         "prototype": "#text_box_34",
         "misc": {"text_horiz_alignment": "left"}
     },
-    "#text_box_40": {"prototype": "text_box", "font": {"size": "20", "name": "notosans"}},
+    "#text_box_40": {"prototype": "text_box", "font": {"size": "20", "name": "clangen"}},
     "#text_box_40_horizcenter": {
         "prototype": "#text_box_40",
         "misc": {"text_horiz_alignment": "center"}
@@ -653,7 +653,7 @@
     },
     "#blank_button": {
         "font": {
-            "name": "notosans",
+            "name": "clangen",
             "size": "14"
         },
         "colours": {

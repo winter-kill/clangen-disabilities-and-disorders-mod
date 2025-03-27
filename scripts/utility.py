@@ -2463,7 +2463,7 @@ def get_pronouns(Cat: "Cat"):
 
 
 def shorten_text_to_fit(
-        name, length_limit, font_size=None, font_type="resources/fonts/NotoSans-Medium.ttf"
+        name, length_limit, font_size=None, font_type="resources/fonts/clangen-Medium.ttf"
 ):
     length_limit = length_limit * scripts.game_structure.screen_settings.screen_scale
     if font_size is None:

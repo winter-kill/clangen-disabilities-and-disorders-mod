@@ -157,37 +157,37 @@ def set_display_mode(
 
     # preloading the associated fonts
     if not MANAGER.ui_theme.get_font_dictionary().check_font_preloaded(
-        f"notosans_bold_aa_{floor(11 * screen_scale)}"
+        f"clangen_bold_aa_{floor(11 * screen_scale)}"
     ):
         MANAGER.preload_fonts(
             [
                 {
-                    "name": "notosans",
+                    "name": "clangen",
                     "point_size": floor(11 * screen_scale),
                     "style": "bold",
                 },
                 {
-                    "name": "notosans",
+                    "name": "clangen",
                     "point_size": floor(13 * screen_scale),
                     "style": "bold",
                 },
                 {
-                    "name": "notosans",
+                    "name": "clangen",
                     "point_size": floor(15 * screen_scale),
                     "style": "bold",
                 },
                 {
-                    "name": "notosans",
+                    "name": "clangen",
                     "point_size": floor(13 * screen_scale),
                     "style": "italic",
                 },
                 {
-                    "name": "notosans",
+                    "name": "clangen",
                     "point_size": floor(15 * screen_scale),
                     "style": "italic",
                 },
                 {
-                    "name": "notosans",
+                    "name": "clangen",
                     "point_size": floor(17 * screen_scale),
                     "style": "bold",
                 },  # this is only used on the allegiances screen?
@@ -324,11 +324,11 @@ def load_manager(res: Tuple[int, int], screen_offset: Tuple[int, int], scale: fl
     )
 
     manager.add_font_paths(
-        font_name="notosans",
-        regular_path="resources/fonts/NotoSans-Medium.ttf",
-        bold_path="resources/fonts/NotoSans-ExtraBold.ttf",
-        italic_path="resources/fonts/NotoSans-MediumItalic.ttf",
-        bold_italic_path="resources/fonts/NotoSans-ExtraBoldItalic.ttf",
+        font_name="clangen",
+        regular_path="resources/fonts/clangen-Medium.ttf",
+        bold_path="resources/fonts/clangen-ExtraBold.ttf",
+        italic_path="resources/fonts/clangen-MediumItalic.ttf",
+        bold_italic_path="resources/fonts/clangen-ExtraBoldItalic.ttf",
     )
     manager.add_font_paths(
         font_name="clangen", regular_path="resources/fonts/clangen.ttf"
