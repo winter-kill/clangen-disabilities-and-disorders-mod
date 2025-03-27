@@ -1,11 +1,11 @@
 {
   "special_suffixes": {
-    "newborn": "kit",
-    "kitten": "kit",
-    "apprentice": "paw",
-    "medicine cat apprentice": "paw",
-    "mediator apprentice": "paw",
-    "leader": "star"
+    "newborn": "baby",
+    "kitten": "child",
+    "apprentice": "apprentice",
+    "medicine cat apprentice": "apprentice",
+    "mediator apprentice": "apprentice",
+    "leader": "leader"
     },
   "normal_suffixes" : [
     "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur", "fur",
@@ -36,7 +36,9 @@
     "storm", "streak", "stream", "strike", "stride", "stripe", "sun", "swarm", "swipe", "swoop", "talon", "tangle",
     "thistle", "thorn", "thrift", "throat", "thrush", "thud", "thunder", "tiger", "timber", "toe", "tooth", "trail", "tree", 
     "trot", "tumble", "twist", "valley", "watcher", "water", "wave", "web", "weaver", "whisper", "whistle", "willow", "wind", "wing", "wish", "wisp", 
-    "zoom"
+    "zoom", 
+    
+    "aero", "star", "paw", "paws", "stars", "blade", "figure", "obsidian",  "core", "aesthetic", "dreamer", "temporary", "cold", "endling", "outcry", "leer"
   ],
   "pelt_suffixes": {
     "TwoColour": ["patch", "spot", "splash", "patch", "spots", "swan"],
@@ -109,8 +111,10 @@
     "Tansy", "Tawny", "Tempest", "Termite", "Thistle", "Thorn", "Thrift", "Thrush", "Thunder", "Thyme", "Tiger", "Timber", "Tiny", "Toad", 
     "Torn", "Tremble", "Trickle", "Trout", "Tuft", "Tulip", "Tumble", "Turtle", "Valley", "Vine", "Vixen", "Wasp", "Weasel", "Weaver", "Web", 
     "Weed", "Weevil", "Wet", "Wheat", "Whimsy", "Whirl", "Whisker", "Whisper", "Whispering", "Whistle", "Whorl", "Wild", "Willow", 
-    "Wind", "Wing", "Wish", "Wisteria", "Wolf", "Wolverine", "Wood", "Worm", "Wren", "Yarrow", "Yew", 
-    "Zap", "Zinnia"
+    "Wind", "Wing", "Wish", "Wisteria", "Wolf", "Wolverine", "Wood", "Worm", "Wren", "Yarrow", "Yew",
+    "Zap", "Zinnia",
+
+    "Frutiger", "Liminal", "Mandela", "Vita", "Carnis", "Dreaming", "Oneiric", "Surreal", "Greylock"
   ],
 
   "clan_prefixes": [
@@ -121,14 +125,15 @@
     "Mist", "Morel", "Mulberry", "Night", "Oleander", "Orchid", "Otter", "Owl", "Pebble", "Phlox", "Pipit", "Plume",
     "Privet", "Rime", "Rock", "Rue", "Saffron", "Scale", "Scrub", "Shade", "Shadow", "Shatter", "Smoke", "Snapdragon",
     "Snow", "Snowy", "Soot", "Spindle", "Stag", "Stone", "Storm", "Sun", "Swan", "Teasel", "Tree", "Twig", "Twilight",
-    "Verbena", "Vervain", "Violet", "Vole", "Warbler", "Wisp"
+    "Verbena", "Vervain", "Violet", "Vole", "Warbler", "Wisp",
+    "Frutiger", "Aero", "Liminal", "Oneiric", "Dreamer", "Vita"
   ],
 
   "colour_prefixes": {
     "WHITE": [
     "White", "White", "Pale", "Snow", "Snowy", "Cloud", "Cloudy", "Milk", "Hail", "Frost", "Frozen", "Freeze", "Ice", "Icy", "Icicle",
     "Blizzard", "Flurry", "Moon", "Light", "Bone", "Bright", "Swan", "Dove", "Cotton", "Hawthorn", "Laurel", "Wisp",
-    "Fringe", "Ibis", "Air", "Bright", "Rime", "Ghost", "Privet", "Egg"
+    "Fringe", "Ibis", "Air", "Bright", "Rime", "Ghost", "Privet", "Egg", "Shiny"
     ],
     "PALEGREY": [
     "Gray", "Gray", "Silver", "Pale", "Light", "Cloud", "Cloudy", "Hail", "Frost", "Ice", "Icy", "Mouse", "Bright", "Fog", "Freeze",
